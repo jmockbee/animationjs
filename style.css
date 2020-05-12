@@ -1,0 +1,35 @@
+/*
+ * global site styles
+ */
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+hp-content {
+	display: block;
+	background-color: #f00;
+	width: 100vw;
+	height: 100vh;
+	/* take up entire height and width */
+}
+
+hp-presentation {
+	display: block;
+	background-color: #fff;
+	width: 80vmin;
+	height: 80vmin;
+	/*takes the shorter value of what is in sid ein height and width*/
+}
+
+hp-slide {
+	display: inline-block;
+	background-color: #0f0;
+	width: 80%;
+	height: 80%;
+	margin: 10%;
+	/*10% on top and 10% side = 100% it is then centered
+use inline-block or will not look right at top of block element 
+*/
+}
